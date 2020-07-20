@@ -1,0 +1,16 @@
+19:33:36.074 karate.env system property was: null 
+19:33:36.156 javascript function call failed: ReferenceError: "examples" is not defined
+19:33:36.157 failed function body: function(args){ return examples.utils.HelperClass.readFile(args)}
+ava/11.0.2)
+
+19:25:01.291 response time in milliseconds: 703.11
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 286
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Mon, 20 Jul 2020 18:25:01 GMT
+1 < ETag: W/"11e-LzB3QkGcvlddNhOY7NClGpfvu6c"
+1 < Vary: Accept-Encoding
+1 < set-cookie: sails.sid=s%3A9bk87R8hAPXM5EXZFm5MARXdRdA2WzVo.xeOliJmkcSA3tvw12euAMcrghPXZDNeLGNJOdcFxK9U; Path=/; HttpOnly
+{"args":{},"headers":{"x-forwarded-proto":"https","x-forwarded-port":"443","host":"postman-echo.com","x-amzn-trace-id":"Root=1-5f15e17d-e1ad2ff2fa759844d69b88f4","user-agent":"Apache-HttpClient/4.5.5 (Java/11.0.2)","accept-encoding":"gzip,deflate"},"url":"https://postman-echo.com/get"}
+
